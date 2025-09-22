@@ -13,7 +13,7 @@ self.addEventListener(
     }
     else if (/\.png$/.test(evento.request.url)) {
       evento.respondWith(
-        fetch('utp.png')
+        fetch('goku.png')
       );
     }
   }
